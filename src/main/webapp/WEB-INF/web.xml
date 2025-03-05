@@ -3,8 +3,21 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
-  <welcome-file-list>
-  <welcome-file>index.jsp</welcome-file>
-  </welcome-file-list>
+  <context-param>
+    <param-name>DB_URL</param-name>
+    <param-value>jdbc:mysql://mysql.railway.internal:3306/railway</param-value>
+</context-param>
+
+<context-param>
+    <param-name>DB_USER</param-name>
+    <param-value>root</param-value>
+</context-param>
+
+<context-param>
+    <param-name>DB_PASSWORD</param-name>
+    <param-value>zVJJPsdigxpOjHbyIkieXFqAKikWvXDw</param-value>
+</context-param>
+
+
+  
 </web-app>
