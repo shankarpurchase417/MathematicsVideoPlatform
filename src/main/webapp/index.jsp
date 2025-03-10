@@ -12,7 +12,7 @@
         <p>Select your role to proceed:</p>
         <div class="button-container">
             <a href="login.jsp" class="btn">User</a>
-            <a href="admin_login.jsp" class="btn">Admin</a>
+            <a href="adminotp.jsp" class="btn">Admin</a>
         </div>
     </div>
 </body>

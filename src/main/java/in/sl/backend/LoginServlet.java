@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
                 session.setAttribute("username", rs.getString("username"));
                 session.setAttribute("has_paid", rs.getBoolean("has_paid"));
                 session.setAttribute("class_name", rs.getString("paid_class")); // Store paid class name
-
+                session.setAttribute("userEmail", email);
                 System.out.println("DEBUG: Login successful for user " + rs.getString("username"));
                 response.sendRedirect("dashboard.jsp");
             } else {
